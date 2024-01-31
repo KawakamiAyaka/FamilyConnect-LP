@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.FirstView{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+
+    &::before{
+        content: "";
+        position: absolute;
+        width: 240px;
+        height: 720px;
+        bottom: 0;
+        left: 0;
+        background: url(../img/BookLeft.png) no-repeat;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        width: 240px;
+        height: 720px;
+        top: 0;
+        right: 0;
+        background: url(../img/BookRight.png) no-repeat;
+    }
+    
+    .FirstBox{
+        width: 100%;
+        display: flex;
+
+        .FirstTitle{
+            width: 60%;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            
+            p{
+                font-size: 32px;
+    
+                span{
+                    font-size: 40px;
+                    color: #B6DFD7;
+                    margin-left: 2em;
+                    text-shadow: 3px 3px #81bedb;
+                }
+            }
+        }  
+        .FirstImg{
+            width: 40%;
+            height: 100vh;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            > img {
+                width: 525px;
+                height: 690px;
+                /* margin-right: 100px; */
+            }
+        }
+    }
+}
+
+
+
+
+.BoxWrap{
+    width: 100%;
+    height: 645px;
+    background: #B6DFD7;
+    display: flex;
+    align-items: center;
+
+    .dot{
+        width: 100%;
+        height: 445px;
+        border: #83AA9C 1px dotted;
+    }
+
+}
