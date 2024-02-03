@@ -108,6 +108,54 @@ body{
 
 
 
+.UseBox{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    background: #FAEEC6;
+
+    .UseTitle{
+    display: flex;
+    justify-content: center;
+
+
+        h1 {
+            position: relative;
+            padding: 1rem 2rem calc(1rem + 10px);
+            background: #F4A460;
+            width: 370px;
+            height: 50px;
+            text-align: center;
+            letter-spacing: 1rem;
+            margin-top: 100px;
+            color: #fff;
+        }
+        
+        h1:before {
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            width: 98%;
+            height: 95%;
+            content: '';
+            border: 4px solid #fff;
+        }
+    }
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    background: #fff;
+    border-style: solid;
+    border-right: 50vw solid transparent;
+    border-left: 50vw solid transparent;
+    border-top: 150px solid #FAEEC6;
+    border-bottom: 0;    
+}
+
+
+
 .point{
     display: flex;
     justify-content: center;
