@@ -52,6 +52,14 @@ body{
                 }
             }
         }  
+
+        .FirstTitle{
+            .FamilyConnect{
+                width: 650px;
+                height: 165px;
+            }
+        }
+
         .FirstImg{
             width: 40%;
             height: 100vh;
