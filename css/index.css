@@ -54,9 +54,28 @@ body{
         }  
 
         .FirstTitle{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            margin-left: 10%;
+            margin-top: 5%;
+            gap: 150px;
+
             .FamilyConnect{
                 width: 650px;
                 height: 165px;
+            }
+
+            .scroll{
+                width: 100px;
+                text-align: center;
+                margin-left: 50%;
+
+                p{
+                    font-size: 22px;
+                    color: #555;
+                    margin-bottom: 10px;
+                }
             }
         }
 
